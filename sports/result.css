@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    background:url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/5b054310415333.560e49caf0c82.jpg");
+    font-family: "Poppins", sans-serif;
+    color:#fff;
+    padding-bottom:50px;
+    margin-top:40px;
+    overflow-x: hidden;
+    background-position: left ;
+	align-content: center;
+}
+
+.header{
+    padding:20px;
+    height:100vh;
+    
+    position:relative;
+    background-size:cover;
+  }
+
+
+ul{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #111;
+    font-size: 0.87rem;
+    text-decoration: none;
+    padding: 1rem;
+    letter-spacing: 1px;
+} 
+ ul li a:hover{
+   border-bottom:3px solid #111;
+ }   
+#navbar{
+    width:100%;
+    top:0;
+    left:0;
+    background-color: transparent;
+}
+#navbar ul{
+    display:flex;
+    align-content:center;
+    justify-content: center;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    text-transform: uppercase;
+    text-decoration: none ;
+    color:white;
+    font-weight: bold;
+    font-size: 0.875rem;
+    padding: 1rem;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+#navbar ul li a:hover{
+    border-bottom:3px solid #fff;
+}
+.intro{
+    padding:100px 0;
+}
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:0 auto;
+    text-align:center;
+}
+h1{
+    font-size:4.5rem;
+    color:#fffbff;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.form{
+	display:flex;
+	justify-content:center;
+}
+.outer{
+	font-size: 20px;
+	text-transform: capitalize;
+	font-style: oblique;
+}
+h2{
+	letter-spacing: 2px;
+	text-shadow:lightcoral;
+}
+.right{
+	border-radius: 5px;
+	outline: none;
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+#submit{
+	background-color: #8a817c;
+	color: white;
+	outline: none;
+	letter-spacing:1px;
+	outline:none;
+	border-radius:5px;
+}
+#submit:hover{
+	background: #d9d7d3;
+}
+.centers{
+	color:#fff;
+}
+span{
+	display:inline-block;
+	margin:-50px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements</title>
+    <link rel="stylesheet" href="result.css">
+</head>
+
+<body>
+    <div class="header">
+        <div id="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="timeline.html">Timeline</a></li>
+                    <li><a href="result.html">Achievement</a></li>
+                </ul>
+            </div>
+        </div>
+
+    <div class="intro">
+		<div class='container'>
+			<h1>The Padma Shri Milkha</h1>
+		</div>
+        <div class="form">
+            <form id="form">
+                <div class="outer">
+                    <div class="left">
+                        <h2>year:</h2>
+                    </div>
+                       <br>
+                    <div class="right">
+                        <select id="year" name="year">
+							<option disabled required selected> Choose a year</option>
+                             <option>1958 Cardiff</option>
+                             <option>1958 Tokyo</option>
+                             <option>1962 Jakarta</option>
+                             <option>1958 Cuttack</option>
+                             <option>1956 calcutta</option>
+                             <option>1959 Padma Shri</option>
+                        </select>     
+                    </div>
+                    <br>
+
+
+                    <input type="submit" id="submit" value="Submit Form"><br>
+				    <h2 id="centers"> <span id="result"></span><br></h2>
+                    
+                </div>
+
+            </form>
+        </div>
+
+
+        <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+	<script src="result.js"></script>
+</body>
+</html>
